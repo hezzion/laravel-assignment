@@ -1,0 +1,130 @@
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+/* Navbar Styles */
+.navbar {
+    position: relative;
+    padding: 4rem 0; /* Increased padding for more height */
+    background-color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 110px; /* You can adjust this to fit your logo size */
+}
+
+.navbar-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar-logo img {
+    height: 100px; /* Adjust logo height */
+    width: auto;
+}
+
+
+.left-container {
+    width: 40%;
+}
+
+.right-container {
+    width: 60%;
+}
+
+.product-description,
+h2,
+label {
+    font-family: 'Times New Roman', serif;
+    font-style: italic;
+    color: #d4af37;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 500px;
+}
+
+.login-form h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.login-form label {
+    font-size: 1rem;
+}
+
+.login-form button {
+    padding: 0.75rem;
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    text-align: center;
+    color: #555;
+    font-size: 1rem;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 3rem;
+    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.product-description {
+    text-align: center;
+    font-weight: bold;
+}
+
+.latest-products-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+    color: #000000;
+}
+
+.product-border {
+    border: 3px solid #d4af37;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.product-border:hover {
+    box-shadow: 0 8px 20px rgba(212, 175, 55, 0.5);
+    transform: translateY(-5px);
+}
+
